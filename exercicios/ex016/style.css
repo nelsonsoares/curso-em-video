@@ -1,0 +1,11 @@
+* {
+  /* Configurações globais do CSS*/
+  height: 100%;
+}
+
+body {
+  /* para colocar em graus a direção usar Ex: 45deg */
+  background-image: linear-gradient(to right, #3198E2, #6d59C0, #B93590, #E33F5F, #FDD579);
+  background-attachment: fixed;
+  color: #FFFFFF;
+}

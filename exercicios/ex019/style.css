@@ -1,0 +1,50 @@
+@charset "UTF8";
+
+/*
+em HTML é id = em CSS é #
+em HTML é class = em CSS .
+*/
+
+body {
+  font: normal 16px Arial, Helvetica, sans-serif;
+  background-color: rgb(203, 252, 201);
+}
+
+h1 {
+  color: rgb(59, 173, 6);
+  text-align: center;
+}
+
+h1#principal {
+  background-color: rgb(81, 138, 76);
+  color: #ffffff;
+  text-align: center;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  border-radius: 0.3rem;
+  box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.25);
+}
+
+h2 {
+  color: rgb(88, 133, 69);
+  text-align: center;
+
+}
+
+p {
+  text-indent: justify;
+}
+
+.basico {
+  color: rgb(69, 89, 133);
+}
+
+.intermediario {
+  color: rgb(172, 184, 3);
+}
+
+.avancado {
+  color: rgb(131, 37, 37);
+}

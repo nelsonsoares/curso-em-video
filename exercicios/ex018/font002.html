@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Usando fonts Personalizadas</title>
+  <style>
+    @font-face {
+      font-family: 'Love';
+      src: url('fonts/love larry ttf.ttf') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+
+      /*
+          Tipos de Format()
+          
+          - opentype (otf)
+          - truetype (ttf)
+          - embedded-opentype
+          - truetype-ett (Apple Advanced Typography)
+          - svg
+      */
+
+      /* shorthand font
+      font-style -> font-weight -> font-size -> font-family
+
+      font-style: italic;
+      font-weight: bolder;
+      font-size: 3em;
+      font-family: 'Work Sans', sans-serif;
+      */
+    }
+
+    h1 {
+      font-family: 'Love';
+      font-size: 3em;
+      font-weight: normal;
+    }
+
+    p {
+      font: normal 1.2em 'Arial', sans-serif;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Olá, Mundo!</h1>
+  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident labore quis quaerat, nobis doloribus impedit
+    exercitationem quod. Nulla officiis, qui alias maxime fugit aspernatur quaerat, tenetur sunt, repellat suscipit
+    consequatur.</p>
+</body>
+
+</html>
