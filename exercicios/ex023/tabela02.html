@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Organizando tabelas grandes</title>
+  <style>
+    body {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    table {
+      width: 500px;
+      border-collapse: collapse;
+      margin: 0px auto;
+    }
+
+    td,
+    th {
+      border: 1px solid black;
+      padding: 10px;
+    }
+
+    .pop {
+      text-align: right;
+    }
+
+    #tpop {
+      text-align: center;
+      background-color: gray;
+      color: white;
+    }
+
+    th {
+      background-color: gray;
+      color: white;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 16pt;
+      margin: 30px 0px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Organizando tabelas grandes em HTML 5</h1>
+
+  <!-- ANATOMIA PATA TABELAS GRANDES
+  
+    TABLE
+      THEAD
+        TR, TD, TH
+      TBODY
+        TR, TD, TH
+      TFOOT
+        TR, TD, TH
+  -->
+  
+  <table>
+
+    <thead>
+      <tr>
+        <th>Estado</th>
+        <th>População</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td>São Paulo</td>
+        <td class="pop">41 262 199</td>
+      </tr>
+      <tr>
+        <td>Minas Gerais</td>
+        <td class="pop">19 597 330</td>
+      </tr>
+      <tr>
+        <td>Rio de Janeiro</td>
+        <td class="pop">15 989 929</td>
+      </tr>
+      <tr>
+        <td>Bahia</td>
+        <td class="pop">14 016 906</td>
+      </tr>
+      <tr>
+        <td>Paraná</td>
+        <td class="pop">10 444 526</td>
+      </tr>
+    </tbody>
+
+    <tfoot>
+      <tr>
+        <th>Total de Habitantes</th>
+        <td id="tpop"><strong>00 000 000</strong></td>
+      </tr>
+    </tfoot>
+  </table>
+</body>
+
+</html>
