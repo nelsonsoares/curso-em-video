@@ -1,0 +1,39 @@
+// caixa de diálogo para perguntas.
+
+window.prompt()
+
+//Exibe uma mensagem de alerta.
+
+window.alert()
+
+// Exibe uma mensagem com opção de escolha.
+
+window.confirm()
+
+// Para converter de String para números.
+
+Number.pasrseInt()
+Number.parseFloat()
+Number()
+
+// Para converter de números para string.
+
+String()
+.toString()
+
+// Para determinar quntidade de casas decimais em números Float
+
+.toFixed()
+
+// Para substituir um elemento por outro
+
+.replace() 
+
+//Exemplo de uso replace: ponto por vírgula 
+
+.replace('.', ',')
+
+//Formatando um número em Real do Brasil
+
+.toLocaleString('pt-BR', {'currency', currency: 'BRL'})
+
